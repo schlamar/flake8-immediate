@@ -4,6 +4,12 @@ Flake8 immediate output
 This module adds immediate output option for ``flake8``, the Python code
 checker.
 
+Usually, flake8 delays the output until a file is completely processed.
+With the *immediate* option, flake8 prints the errors directly without
+any delay. So this option provides the possibility to get a streaming
+pipe from a flake8 subprocess. A real world use case is represented by
+https://github.com/schlamar/SublimeStreamingLinter.
+
 
 Installation
 ------------
