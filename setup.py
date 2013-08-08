@@ -27,7 +27,7 @@ setup(
     keywords='flake8 immediate output',
     author='Marc Schlaich',
     author_email='marc.schlaich@gmail.com',
-    url='https://github.com/schlamar/flake8-todo',
+    url='https://github.com/schlamar/flake8-immediate',
     license='MIT',
     py_modules=['flake8_immediate'],
     zip_safe=False,
